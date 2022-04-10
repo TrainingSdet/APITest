@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Employee API Suite">
+	<parameter name="configurationFile" value="employee.properties" />
+	<parameter name="apiVersion" value="1.0" />
+	<listeners>
+		<listener
+			class-name="com.framework.listener.EmployeeListener" />
+	</listeners>
+	<test name="Employee Test">
+		<classes>
+			<class name="com.employee.api.EmployeeTest"></class>
+		</classes>
+	</test>
+</suite>
+<!-- Suite -->  

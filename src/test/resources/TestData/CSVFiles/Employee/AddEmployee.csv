@@ -1,0 +1,2 @@
+testCaseId,Testcase,loggedInUserId,loggedInUserPassword,empOrgId,empType,empDept,empFirstName,empLastName,empSalary,empDOB,empDOJ,empDOE,empAddress,empDesignation,empStatus,empEmailId,empLoginName,empLoginPassword,empSupervisorId,httpStatus,enabled
+TEST-001,Add Manager to the organisation,7000,pass@123,999,MANAGER,ENGINEERING,Robert,Smith,54000,01-09-1984,05-01-2021,,Newyork,ARCHITECT,ACTIVE,Robert.Smith@wipro.com,Robert,pass@123,7000,201,TRUE

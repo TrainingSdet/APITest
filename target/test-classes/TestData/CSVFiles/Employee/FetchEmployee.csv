@@ -1,0 +1,2 @@
+testCaseId,Testcase,loggedInUserId,loggedInUserPassword,includeFilter,employeeIdFilter,schemaFile,httpStatus,enabled
+TEST-001,Get Employee for Admin,7001,pass@123,ALL,,GetEmpInforForAdminSchema.json,200,TRUE

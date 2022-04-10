@@ -1,0 +1,7 @@
+[
+  {
+    "negativeTestScenario": "InvalidEmpStatus",
+    "httpStatusCode": "404",
+    "errorMessage": "Invalid empStatus { ADMIN }  Allowed Values are [ACTIVE]"
+  }
+]

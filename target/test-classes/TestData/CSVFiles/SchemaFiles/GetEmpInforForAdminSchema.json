@@ -1,0 +1,569 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "employee": {
+      "type": "object",
+      "properties": {
+        "self": {
+          "type": "object",
+          "properties": {
+            "empTypeId": {
+              "type": "integer"
+            },
+            "empId": {
+              "type": "integer"
+            },
+            "empType": {
+              "type": "string"
+            },
+            "empDeptId": {
+              "type": "integer"
+            },
+            "empDept": {
+              "type": "string"
+            },
+            "empDesignationId": {
+              "type": "integer"
+            },
+            "empDesignation": {
+              "type": "string"
+            },
+            "empStatusId": {
+              "type": "integer"
+            },
+            "empStatus": {
+              "type": "string"
+            },
+            "empFirstName": {
+              "type": "string"
+            },
+            "empLastName": {
+              "type": "string"
+            },
+            "empSalary": {
+              "type": "integer"
+            },
+            "empDOB": {
+              "type": "string"
+            },
+            "empDOJ": {
+              "type": "string"
+            },
+            "empDOE": {
+              "type": "null"
+            },
+            "empAddress": {
+              "type": "string"
+            },
+            "empEmailId": {
+              "type": "string"
+            },
+            "empLoginName": {
+              "type": "string"
+            },
+            "empLoginPassword": {
+              "type": "string"
+            },
+            "empSupervisorId": {
+              "type": "integer"
+            },
+            "empOrgId": {
+              "type": "integer"
+            }
+          },
+          "required": [
+            "empTypeId",
+            "empId",
+            "empType",
+            "empDeptId",
+            "empDept",
+            "empDesignationId",
+            "empDesignation",
+            "empStatusId",
+            "empStatus",
+            "empFirstName",
+            "empLastName",
+            "empSalary",
+            "empDOB",
+            "empDOJ",
+            "empDOE",
+            "empAddress",
+            "empEmailId",
+            "empLoginName",
+            "empLoginPassword",
+            "empSupervisorId",
+            "empOrgId"
+          ]
+        },
+        "reportees": {
+          "type": "array",
+          "items": [
+            {
+              "type": "object",
+              "properties": {
+                "empTypeId": {
+                  "type": "integer"
+                },
+                "empId": {
+                  "type": "integer"
+                },
+                "empType": {
+                  "type": "string"
+                },
+                "empDeptId": {
+                  "type": "integer"
+                },
+                "empDept": {
+                  "type": "string"
+                },
+                "empDesignationId": {
+                  "type": "integer"
+                },
+                "empDesignation": {
+                  "type": "string"
+                },
+                "empStatusId": {
+                  "type": "integer"
+                },
+                "empStatus": {
+                  "type": "string"
+                },
+                "empFirstName": {
+                  "type": "string"
+                },
+                "empLastName": {
+                  "type": "string"
+                },
+                "empSalary": {
+                  "type": "integer"
+                },
+                "empDOB": {
+                  "type": "string"
+                },
+                "empDOJ": {
+                  "type": "string"
+                },
+                "empDOE": {
+                  "type": "null"
+                },
+                "empAddress": {
+                  "type": "string"
+                },
+                "empEmailId": {
+                  "type": "string"
+                },
+                "empLoginName": {
+                  "type": "string"
+                },
+                "empLoginPassword": {
+                  "type": "string"
+                },
+                "empSupervisorId": {
+                  "type": "integer"
+                },
+                "empOrgId": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "empTypeId",
+                "empId",
+                "empType",
+                "empDeptId",
+                "empDept",
+                "empDesignationId",
+                "empDesignation",
+                "empStatusId",
+                "empStatus",
+                "empFirstName",
+                "empLastName",
+                "empSalary",
+                "empDOB",
+                "empDOJ",
+                "empDOE",
+                "empAddress",
+                "empEmailId",
+                "empLoginName",
+                "empLoginPassword",
+                "empSupervisorId",
+                "empOrgId"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "empTypeId": {
+                  "type": "integer"
+                },
+                "empId": {
+                  "type": "integer"
+                },
+                "empType": {
+                  "type": "string"
+                },
+                "empDeptId": {
+                  "type": "integer"
+                },
+                "empDept": {
+                  "type": "string"
+                },
+                "empDesignationId": {
+                  "type": "integer"
+                },
+                "empDesignation": {
+                  "type": "string"
+                },
+                "empStatusId": {
+                  "type": "integer"
+                },
+                "empStatus": {
+                  "type": "string"
+                },
+                "empFirstName": {
+                  "type": "string"
+                },
+                "empLastName": {
+                  "type": "string"
+                },
+                "empSalary": {
+                  "type": "integer"
+                },
+                "empDOB": {
+                  "type": "string"
+                },
+                "empDOJ": {
+                  "type": "string"
+                },
+                "empDOE": {
+                  "type": "null"
+                },
+                "empAddress": {
+                  "type": "string"
+                },
+                "empEmailId": {
+                  "type": "string"
+                },
+                "empLoginName": {
+                  "type": "string"
+                },
+                "empLoginPassword": {
+                  "type": "string"
+                },
+                "empSupervisorId": {
+                  "type": "integer"
+                },
+                "empOrgId": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "empTypeId",
+                "empId",
+                "empType",
+                "empDeptId",
+                "empDept",
+                "empDesignationId",
+                "empDesignation",
+                "empStatusId",
+                "empStatus",
+                "empFirstName",
+                "empLastName",
+                "empSalary",
+                "empDOB",
+                "empDOJ",
+                "empDOE",
+                "empAddress",
+                "empEmailId",
+                "empLoginName",
+                "empLoginPassword",
+                "empSupervisorId",
+                "empOrgId"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "empTypeId": {
+                  "type": "integer"
+                },
+                "empId": {
+                  "type": "integer"
+                },
+                "empType": {
+                  "type": "string"
+                },
+                "empDeptId": {
+                  "type": "integer"
+                },
+                "empDept": {
+                  "type": "string"
+                },
+                "empDesignationId": {
+                  "type": "integer"
+                },
+                "empDesignation": {
+                  "type": "string"
+                },
+                "empStatusId": {
+                  "type": "integer"
+                },
+                "empStatus": {
+                  "type": "string"
+                },
+                "empFirstName": {
+                  "type": "string"
+                },
+                "empLastName": {
+                  "type": "string"
+                },
+                "empSalary": {
+                  "type": "integer"
+                },
+                "empDOB": {
+                  "type": "string"
+                },
+                "empDOJ": {
+                  "type": "string"
+                },
+                "empDOE": {
+                  "type": "null"
+                },
+                "empAddress": {
+                  "type": "string"
+                },
+                "empEmailId": {
+                  "type": "string"
+                },
+                "empLoginName": {
+                  "type": "string"
+                },
+                "empLoginPassword": {
+                  "type": "string"
+                },
+                "empSupervisorId": {
+                  "type": "integer"
+                },
+                "empOrgId": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "empTypeId",
+                "empId",
+                "empType",
+                "empDeptId",
+                "empDept",
+                "empDesignationId",
+                "empDesignation",
+                "empStatusId",
+                "empStatus",
+                "empFirstName",
+                "empLastName",
+                "empSalary",
+                "empDOB",
+                "empDOJ",
+                "empDOE",
+                "empAddress",
+                "empEmailId",
+                "empLoginName",
+                "empLoginPassword",
+                "empSupervisorId",
+                "empOrgId"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "empTypeId": {
+                  "type": "integer"
+                },
+                "empId": {
+                  "type": "integer"
+                },
+                "empType": {
+                  "type": "string"
+                },
+                "empDeptId": {
+                  "type": "integer"
+                },
+                "empDept": {
+                  "type": "string"
+                },
+                "empDesignationId": {
+                  "type": "integer"
+                },
+                "empDesignation": {
+                  "type": "string"
+                },
+                "empStatusId": {
+                  "type": "integer"
+                },
+                "empStatus": {
+                  "type": "string"
+                },
+                "empFirstName": {
+                  "type": "string"
+                },
+                "empLastName": {
+                  "type": "string"
+                },
+                "empSalary": {
+                  "type": "integer"
+                },
+                "empDOB": {
+                  "type": "string"
+                },
+                "empDOJ": {
+                  "type": "string"
+                },
+                "empDOE": {
+                  "type": "null"
+                },
+                "empAddress": {
+                  "type": "string"
+                },
+                "empEmailId": {
+                  "type": "string"
+                },
+                "empLoginName": {
+                  "type": "string"
+                },
+                "empLoginPassword": {
+                  "type": "string"
+                },
+                "empSupervisorId": {
+                  "type": "integer"
+                },
+                "empOrgId": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "empTypeId",
+                "empId",
+                "empType",
+                "empDeptId",
+                "empDept",
+                "empDesignationId",
+                "empDesignation",
+                "empStatusId",
+                "empStatus",
+                "empFirstName",
+                "empLastName",
+                "empSalary",
+                "empDOB",
+                "empDOJ",
+                "empDOE",
+                "empAddress",
+                "empEmailId",
+                "empLoginName",
+                "empLoginPassword",
+                "empSupervisorId",
+                "empOrgId"
+              ]
+            },
+            {
+              "type": "object",
+              "properties": {
+                "empTypeId": {
+                  "type": "integer"
+                },
+                "empId": {
+                  "type": "integer"
+                },
+                "empType": {
+                  "type": "string"
+                },
+                "empDeptId": {
+                  "type": "integer"
+                },
+                "empDept": {
+                  "type": "string"
+                },
+                "empDesignationId": {
+                  "type": "integer"
+                },
+                "empDesignation": {
+                  "type": "string"
+                },
+                "empStatusId": {
+                  "type": "integer"
+                },
+                "empStatus": {
+                  "type": "string"
+                },
+                "empFirstName": {
+                  "type": "string"
+                },
+                "empLastName": {
+                  "type": "string"
+                },
+                "empSalary": {
+                  "type": "integer"
+                },
+                "empDOB": {
+                  "type": "string"
+                },
+                "empDOJ": {
+                  "type": "string"
+                },
+                "empDOE": {
+                  "type": "null"
+                },
+                "empAddress": {
+                  "type": "string"
+                },
+                "empEmailId": {
+                  "type": "string"
+                },
+                "empLoginName": {
+                  "type": "string"
+                },
+                "empLoginPassword": {
+                  "type": "string"
+                },
+                "empSupervisorId": {
+                  "type": "integer"
+                },
+                "empOrgId": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "empTypeId",
+                "empId",
+                "empType",
+                "empDeptId",
+                "empDept",
+                "empDesignationId",
+                "empDesignation",
+                "empStatusId",
+                "empStatus",
+                "empFirstName",
+                "empLastName",
+                "empSalary",
+                "empDOB",
+                "empDOJ",
+                "empDOE",
+                "empAddress",
+                "empEmailId",
+                "empLoginName",
+                "empLoginPassword",
+                "empSupervisorId",
+                "empOrgId"
+              ]
+            }
+          ]
+        }
+      },
+      "required": [
+        "self",
+        "reportees"
+      ]
+    }
+  },
+  "required": [
+    "employee"
+  ]
+}

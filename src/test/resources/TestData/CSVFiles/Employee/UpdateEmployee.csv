@@ -1,0 +1,2 @@
+testCaseId,Testcase,loggedInUserId,loggedInUserPassword,updateEmpId,empOrgId,empType,empDept,empFirstName,empLastName,empSalary,empDOB,empDOJ,empDOE,empAddress,empDesignation,empStatus,empEmailId,empLoginName,empLoginPassword,empSupervisorId,httpStatus,enabled
+TEST-001,Add Manager to the organisation,7001,pass@123,7003,999,,QUALITY ASSURANCE,,,58900,,,,,,,,,,7000,200,TRUE

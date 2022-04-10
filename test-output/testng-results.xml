@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="3" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Employee API Suite" duration-ms="4641" started-at="2021-07-03T13:08:24Z" finished-at="2021-07-03T13:08:28Z">
+    <groups>
+    </groups>
+    <test name="Employee Test" duration-ms="4641" started-at="2021-07-03T13:08:24Z" finished-at="2021-07-03T13:08:28Z">
+      <class name="com.employee.api.EmployeeTest">
+        <test-method status="PASS" signature="setUpTest(java.lang.String, java.lang.String)[pri:0, instance:com.employee.api.EmployeeTest@7a30d1e6]" name="setUpTest" is-config="true" duration-ms="435" started-at="2021-07-03T18:38:23Z" finished-at="2021-07-03T18:38:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[employee.properties]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="testGetEmployee(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, int, java.lang.String)[pri:0, instance:com.employee.api.EmployeeTest@7a30d1e6]" name="testGetEmployee" duration-ms="4141" started-at="2021-07-03T18:38:24Z" data-provider="feeder" finished-at="2021-07-03T18:38:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[TEST-001]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Get Employee for Admin]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[7001]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[pass@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ALL]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[TRUE]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetEmployee -->
+      </class> <!-- com.employee.api.EmployeeTest -->
+    </test> <!-- Employee Test -->
+  </suite> <!-- Employee API Suite -->
+</testng-results>

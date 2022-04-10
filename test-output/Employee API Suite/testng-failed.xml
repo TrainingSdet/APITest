@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Employee API Suite]">
+  <parameter name="apiVersion" value="1.0"/>
+  <parameter name="configurationFile" value="employee.properties"/>
+  <listeners>
+    <listener class-name="com.framework.listener.EmployeeListener"/>
+  </listeners>
+  <test name="Employee Test(failed)">
+    <classes>
+      <class name="com.employee.api.Test1">
+        <methods>
+          <include name="testGetEmployee" invocation-numbers="0"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- com.employee.api.Test1 -->
+    </classes>
+  </test> <!-- Employee Test(failed) -->
+</suite> <!-- Failed suite [Employee API Suite] -->
